@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/third">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/resultsrl1"
+        android:background="@color/secondary">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/res1"
+        android:id="@+id/resultats_tv1"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/resultats_tv2"
+        android:textSize="23dp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/resultsrl1"
+        android:layout_marginLeft="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/resultats_tv3"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/resultats_tv2"
+        android:layout_alignStart="@+id/resultats_tv2"
+        android:textSize="23dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/resultats_tv4"
+        android:layout_below="@+id/resultats_tv3"
+        android:layout_alignStart="@+id/resultats_tv3"
+        android:layout_marginTop="80dp"
+        android:textSize="23dp"
+        />
+
+
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="110dp"
+        android:text="Enregistrer"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textColor="@color/secondary"/>
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="110dp"
+        android:text="Envoyer par mail"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textColor="@color/secondary"/>
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="110dp"
+        android:text="Nouveau Test"
+        android:id="@+id/button4"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textColor="@color/secondary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/resultats_tv5"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="400dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/resultsrl1"
+        android:textSize="23dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/resultats_tv6"
+        android:layout_below="@+id/resultats_tv5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/resultats_tv5"
+        android:layout_marginTop="80dp"
+        android:textSize="23dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/resultats_tv7"
+        android:layout_below="@+id/resultats_tv6"
+        android:layout_alignStart="@+id/resultats_tv5"
+        android:layout_marginTop="80dp"
+        android:textSize="23dp"
+        />
+</RelativeLayout>

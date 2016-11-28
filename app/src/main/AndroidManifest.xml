@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arvii.dtq_30">
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden"
+            android:name=".AccueilActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden"
+            android:name=".ParameterActivity">
+        </activity>
+
+        <activity android:screenOrientation="landscape"
+            android:name=".TestActivity">
+        </activity>
+
+        <activity android:screenOrientation="landscape"
+            android:name=".ResultatsActivity">
+        </activity>
+
+        <activity android:screenOrientation="landscape"
+            android:name=".ProposActivity">
+        </activity>
+    </application>
+
+</manifest>

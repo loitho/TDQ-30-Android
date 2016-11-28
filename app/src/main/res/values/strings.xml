@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Config -->
+    <string name="app_name">DTQ-30</string>
+
+
+    <!--Accueil-->
+
+        <!--TextView-->
+        <string name="accueil_tv1">TDQ-30</string>
+        <string name="accueil_tv2">Entrer les informations du patient</string>
+        <string name="accueil_tv3">Prénom Nom : </string>
+        <string name="accueil_tv4">Date de Naissance : </string>
+        <string name="accueil_tv5">Années d\'éducation : </string>
+        <string name="accueil_tv6">Cause du test (facultatif) : </string>
+
+        <!--PushButton-->
+        <string name="accueil_pb1">Tutorial</string>
+        <string name="accueil_pb2">Démarrer le test</string>
+
+
+    <!-- Parametres-->
+
+    <string name="param_tv1">Paramètres</string>
+    <string name="param_tv2">Nom du clinicien</string>
+    <string name="param_pb">Valider</string>
+
+    <!--Ecran Test-->
+    <string name="pb1">1</string>
+    <string name="pb2">2</string>
+    <string name="pb3">3</string>
+    <string name="pb4">4</string>
+    <string name="pb5">5</string>
+    <string name="pb6">6</string>
+
+    <!-- Ecran Resultat-->
+    <string name="res1">Résultats du test :</string>
+
+    <!--A propos-->
+    <string name="texte_propos">Et interdum acciderat, ut siquid in penetrali secreto nullo citerioris vitae ministro praesente paterfamilias uxori susurrasset in aurem, velut Amphiarao referente aut Marcio, quondam vatibus inclitis, postridie disceret imperator. ideoque etiam parietes arcanorum soli conscii timebantur.\n\n
+
+Hoc inmaturo interitu ipse quoque sui pertaesus excessit e vita aetatis nono anno atque vicensimo cum quadriennio imperasset. natus apud Tuscos in Massa Veternensi, patre Constantio Constantini fratre imperatoris, matreque Galla sorore Rufini et Cerealis, quos trabeae consulares nobilitarunt et praefecturae.\n\n
+
+Et eodem impetu Domitianum praecipitem per scalas itidem funibus constrinxerunt, eosque coniunctos per ampla spatia civitatis acri raptavere discursu. iamque artuum et membrorum divulsa conpage superscandentes corpora mortuorum ad ultimam truncata deformitatem velut exsaturati mox abiecerunt in flumen.\n\n
+
+Equitis Romani autem esse filium criminis loco poni ab accusatoribus neque his iudicantibus oportuit neque defendentibus nobis. Nam quod de pietate dixistis, est quidem ista nostra existimatio, sed iudicium certe parentis; quid nos opinemur, audietis ex iuratis; quid parentes sentiant, lacrimae matris incredibilisque maeror, squalor patris et haec praesens maestitia, quam cernitis, luctusque declarat.\n\n
+
+Et eodem impetu Domitianum praecipitem per scalas itidem funibus constrinxerunt, eosque coniunctos per ampla spatia civitatis acri raptavere discursu. iamque artuum et membrorum divulsa conpage superscandentes corpora mortuorum ad ultimam truncata deformitatem velut exsaturati mox abiecerunt in flumen.</string>
+
+
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/test1_iv"
+            android:background="@drawable/cadre"
+            android:layout_margin="20dp"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="153dp"
+        android:layout_height="105dp"
+        android:text="@string/pb6"
+        android:id="@+id/test1_pb6"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textColor="@color/secondary"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentStart="true"
+        android:rotation="180"/>
+
+    <Button
+        android:layout_width="153dp"
+        android:layout_height="105dp"
+        android:text="@string/pb5"
+        android:id="@+id/test1_pb5"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/test1_pb6"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textColor="@color/secondary"
+        android:layout_marginLeft="15dp"
+        android:rotation="180"/>
+
+    <Button
+        android:layout_width="153dp"
+        android:layout_height="105dp"
+        android:text="@string/pb4"
+        android:id="@+id/test1_pb4"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/test1_pb5"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textColor="@color/secondary"
+        android:layout_marginLeft="15dp"
+        android:rotation="180"/>
+
+    <Button
+        android:layout_width="153dp"
+        android:layout_height="105dp"
+        android:text="@string/pb3"
+        android:id="@+id/test1_pb3"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/test1_pb4"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textColor="@color/secondary"
+        android:layout_marginLeft="15dp"
+        android:rotation="180"/>
+
+    <Button
+        android:layout_width="153dp"
+        android:layout_height="105dp"
+        android:text="2"
+        android:id="@+id/test1_pb2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textColor="@color/secondary"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@+id/test1_pb3"
+        android:rotation="180"/>
+
+    <Button
+        android:layout_width="153dp"
+        android:layout_height="105dp"
+        android:text="1"
+        android:id="@+id/test1_pb1"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/test1_pb2"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textColor="@color/secondary"
+        android:layout_marginLeft="15dp"
+        android:rotation="180"/>
+
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:id="@+id/drawerPane"
+        android:layout_gravity="start">
+
+        <!-- Profile Box -->
+
+        <RelativeLayout
+            android:id="@+id/profileBox"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/colorPrimary"
+            android:padding="8dp" >
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/imageexemple"
+                android:layout_marginTop="22dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="62dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/avatar"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nom Clinicien"
+                    android:textColor="@color/secondary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="4dp"
+                    android:text="email@gmail.com"
+                    android:textColor="@color/secondary"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- List of Actions (pages) -->
+        <ListView
+            android:id="@+id/navList"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profileBox"
+            android:choiceMode="singleChoice"
+            android:background="@color/third" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>
